@@ -9,17 +9,15 @@ Only the JSON files are included (in `eng/json/`).
 
 ## Changes made
 
-These changes were made automatically by `adaptSILOpenTranslatorsNotes.py` (version 0.10)
+These changes were made automatically by `adaptSILOpenTranslatorsNotes.py` (version 0.11)
 to match the [Open English Translation](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) Readers’ Version (OET-RV):
 
-- In the notes’ content, traditional forms of names were changed to the OET-RV forms from `OET-RV_names_table.tsv`.
-  The traditional form is given in parentheses at the first use in each note
-  (and again after about 10 paragraphs of a long note), imitating the OET-RV,
-  e.g., ‘Yeshua (Jesus; Grk. Yesus)’ then just ‘Yeshua’.
-- Other wording changes:
+- In the notes’ content, the OET-RV form of each name (from `OET-RV_names_table.tsv`) is given in parentheses
+  after the first use of the traditional name in each note (and again after about 10 paragraphs of a long note),
+  e.g., ‘Samuel (Shmuel)’ then just ‘Samuel’. (The traditional names are kept because the notes refer to the BSB.)
+- Other OET-RV wording was added in parentheses after the first use of their term in each note, e.g., ‘the LORD (Yahweh)’:
   - LORD → Yahweh
-  - John the Baptist → John the immerser
-  - John the Baptizer → John the immerser
 
-The note titles and metadata, and Bible book names in references (e.g., ‘John 1:19’) were not changed.
+The note titles and metadata, Bible book names in references (e.g., ‘John 1:19’),
+and text quoted from other Bible versions (e.g., ‘“…” (NIV)’, and example translations attributed to a version) were not changed.
 See `adaptation_log.tsv` for the number of times each change was made.
