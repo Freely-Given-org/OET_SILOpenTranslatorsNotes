@@ -9,7 +9,7 @@ Only the JSON files are included (in `eng/json/`).
 
 ## Changes made
 
-These changes were made automatically by `adaptSILOpenTranslatorsNotes.py` (version 0.50)
+These changes were made automatically by `adaptSILOpenTranslatorsNotes.py` (version 0.51)
 to match the [Open English Translation](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) Readers’ Version (OET-RV):
 
 - In the notes’ content, the OET-RV form of each name (from `OET-RV_names_table.tsv`) is given after a slash
